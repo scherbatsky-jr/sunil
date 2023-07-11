@@ -1,0 +1,21 @@
+.link {
+    color: black;
+    cursor: pointer;
+    margin: 0.4rem 0;
+    text-align: center;
+
+    svg {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+.links {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.4rem 0.8rem;
+    top: 40%;
+}

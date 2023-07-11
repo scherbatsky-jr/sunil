@@ -1,0 +1,12 @@
+.section {
+  &__grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 0;
+  }
+
+  &__icon {
+    font-size: 4rem;
+  }
+}

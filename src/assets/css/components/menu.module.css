@@ -1,0 +1,38 @@
+.image {
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.menu {
+    align-items: center;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+}
+
+.menuImage {
+    align-items: center;
+    display: flex;
+}
+
+.menuList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuItem {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.name {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}

@@ -1,0 +1,31 @@
+.content {
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.landing {
+    display: flex;
+    background-color: aliceblue;
+    height: 98vh;
+}
+
+.learnMore {
+    background-color: #7843e9;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+}
+
+.message {
+    margin: 2rem 0;
+}
+
+
