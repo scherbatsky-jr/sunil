@@ -9,7 +9,7 @@ const Landing = () => {
         <div className={styles.landing}>
             <SocialLinks />
             <div className={styles.content}>
-                <p className={styles.header}>Hey, I'm Sunil Prajapati</p>
+                <p className={styles.header}>Hey, I&apos;m Sunil Prajapati</p>
                 <p className={styles.message}>An experienced full stack engineer building full scale web applications</p>
                 <a className={styles.learnMore} href="#about">Learn More Below</a>
             </div>
