@@ -1,0 +1,86 @@
+.image {
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.menu {
+    background-color: white;
+    color: black;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.menuBar {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.menuButton {
+    display: flex;
+    justify-content: right;
+
+    button {
+        background-color: white;
+        border: none;
+        color: black;
+        cursor: pointer;
+        width: fit-content;
+
+        svg {
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+}
+
+.menuDropdown {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+    a {
+        border-top: 1px solid ghostwhite;
+        padding: 1rem 2rem;
+    }
+}
+
+.menuImage {
+    align-items: center;
+    display: flex;
+}
+
+.menuList {
+    display: none;
+    justify-content: space-between;
+}
+
+.menuItem {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.name {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media (min-width: 650px) {
+    .menuButton {
+        display: none
+    }
+
+    .menuDropdown {
+        display: none;
+    }
+
+    .menuList {
+        display: flex;
+    }
+}
